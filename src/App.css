@@ -1,0 +1,355 @@
+body {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #191919;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+}
+
+/* Navbar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  font-size: 18px;
+}
+
+.navbar-item:hover {
+  color: #118DA8;
+  cursor: pointer;
+}
+
+/* MainPage */
+.main-1 {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+}
+
+.main-2 {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.main-3 {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+
+.main {
+  display: flex;
+  padding: 46px;
+  justify-content: space-between;
+}
+
+.main-images {
+  position: relative;
+}
+
+.main-img {
+  width: 650px;
+  border-radius: 12px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 94px;
+  justify-content: center;
+}
+
+.motto {
+  font-size: 70px;
+}
+
+.decorative-text {
+  display: flex;
+}
+
+.next {
+  display: flex;
+  flex-direction: column;
+  font-size: 75px;
+}
+
+.next img {
+  max-width: 163px;
+}
+
+.level {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.listen-on {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 17px;
+  align-self: flex-start;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+/* Latest Episodes */
+.latest-episodes {
+  padding-top: 40px;
+}
+
+.latest-episodes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.latest-episodes-title {
+  font-size: 64px;
+}
+
+.btn {
+  padding: 0 17px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  height: 51px;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #118DA8;
+  border: 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #075167;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.card {
+  padding: 40px;
+  display: flex;
+  gap: 53px;
+  background-color: #000;
+  border-radius: 32px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  padding: 0 16px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  background-color: #191919;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.episode-title {
+  font-size: 64px;
+}
+
+.episode-num {
+  font-size: 17px;
+  color: #118DA8;
+}
+
+.episode-description {
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Host */
+.host {
+  display: flex;
+  gap: 60px;
+  margin-top: 200px;
+}
+
+.host-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  background-color: #118DA8;
+  border-radius: 400px;
+}
+
+.host-subtitle {
+  margin-top: 17px;
+  color: #118DA8;
+}
+
+.host-name {
+  font-size: 65px;
+}
+
+.host-description {
+  margin-top: 30px;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.host-img {
+  border-radius: 12px;
+}
+
+
+/* Subscribe */
+.subscribe {
+  position: relative;
+  margin-top: 150px;
+}
+
+.subscribe-card {
+  padding: 57px;
+  display: flex;
+  gap: 50px;
+  background-color: #000;
+  border-radius: 32px;
+}
+
+.subscribe-1 {
+  position: absolute;
+  bottom: 50px;
+  left: -30px;
+}
+
+.subscribe-2 {
+  position: absolute;
+  bottom: -25px;
+}
+
+.subscribe-3 {
+  position: absolute;
+  bottom: -30px;
+  left: 80px;
+}
+
+.subscribe-subtitle {
+  color: #118DA8;
+}
+
+.subscribe-title {
+  font-size: 72px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.subscribe-form input {
+  width: 522px;
+  height: 82px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #191919;
+  border: 0;
+  border-radius: 6px;
+}
+
+
+/* Reviews */
+.reviews {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reviews-first, .reviews-last {
+  display: flex;
+  gap: 15px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 40px;
+  background-color: #000;
+  border-radius: 12px;
+}
+
+.review-desc {
+  font-size: 36px;
+}
+
+.review-author {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Footer */
+.footer {
+  margin: 200px 0;
+  display: flex;
+  gap: 150px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media {
+  margin: 15px 5px;
+}
+
+.nav, .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-media:hover, .nav div:hover, .links div:hover {
+  cursor: pointer;
+  color: #118DA8;
+}
+
+
+/* Sign Up */
+.modal {
+  transition: opacity 0.3s, visibility 0.3s;
+}
