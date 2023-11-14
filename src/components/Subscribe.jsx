@@ -16,7 +16,7 @@ export function Subscribe() {
                 <div className="subscribe-form">
                     <input type="text" placeholder="Name"/>
                     <input type="email" placeholder="Email"/>
-                    <button className="btn">Submit</button>
+                    <button className="btn btn--cards">Submit</button>
                 </div>
             </div>
         </div>

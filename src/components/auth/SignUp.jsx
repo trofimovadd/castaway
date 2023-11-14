@@ -5,13 +5,12 @@ export function SignUp({ open, onClose }) {
     return (
         <div className="modal">
             <div className="modal-container">
-                <div className="modal-right">
+                <div className="modal-header">
                     <span>Create an account</span>
                     <button onClick={onClose} className="close-btn">X</button>
                 </div>
-                <div className="content">
+                <div className="modal-content">
                     <form>
-                        <div className="error-message">errorMessage</div>
                         <input
                             type="login"
                             placeholder="Login"
@@ -24,6 +23,11 @@ export function SignUp({ open, onClose }) {
                             type="password"
                             placeholder="Password"
                         />
+                        <div className="modal-buttons">
+                            <button className="btn btn--cards">Sign up</button>
+                            <span>Already have an account?</span>
+                            <button className="btn">Sign in</button>
+                        </div>
                     </form>
                 </div>
             </div>
