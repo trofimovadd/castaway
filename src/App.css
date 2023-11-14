@@ -21,10 +21,6 @@ body {
   font-size: 18px;
 }
 
-.navbar-item:hover {
-  color: #118DA8;
-  cursor: pointer;
-}
 
 /* MainPage */
 .main-1 {
@@ -101,10 +97,6 @@ body {
   align-self: flex-start;
 }
 
-.icons:hover {
-  cursor: pointer;
-}
-
 /* Latest Episodes */
 .latest-episodes {
   padding-top: 40px;
@@ -132,10 +124,6 @@ body {
   border-radius: 6px;
   background-color: #118DA8;
   border: 0;
-}
-
-.btn:hover {
-  cursor: pointer;
 }
 
 .btn:active {
@@ -173,6 +161,10 @@ body {
   background-color: #191919;
   border-radius: 6px;
   text-align: center;
+}
+
+.category:hover, .btn:hover, .icons:hover  {
+  cursor: pointer;
 }
 
 .episode-title {
@@ -343,7 +335,7 @@ body {
   gap: 10px;
 }
 
-.social-media:hover, .nav div:hover, .links div:hover {
+.navbar-item:hover, .social-media:hover, .nav div:hover, .links div:hover {
   cursor: pointer;
   color: #118DA8;
 }
